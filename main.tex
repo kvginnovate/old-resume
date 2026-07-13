@@ -17,17 +17,6 @@
 \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
 
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
@@ -63,24 +52,11 @@
   }
 }
 
-\newcommand{\classesList}[4]{
-    \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
-  }
-}
-
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textbf{\small #2} \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -110,189 +86,146 @@
 \begin{center}
     {\Huge \scshape Chokkar Gurusamy} \\ \vspace{1pt}
      Bangalore  \\ \vspace{1pt}
-    \small \raisebox{-0.1\height}\faPhone\ +91 (99408) 92858 ~ \href{mailto:chokar.g@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{chokar.g@gmail.com}} ~ 
-    \href{https://linkedin.com/in/chokkarg}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/chokkarg}}
+    \small \raisebox{-0.1\height}\faPhone\ +91 (99408) 92858 ~
+    \href{mailto:chokkar.g@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{chokkar.g@gmail.com}} ~
+    \href{https://linkedin.com/in/chokkarg}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/chokkarg}} ~
+    \href{https://github.com/chokkarg}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/chokkarg}}
     \vspace{-8pt}
 \end{center}
 
 %-----------PROFESSIONAL SUMMARY-----------
 \section{Professional Summary}
-    \resumeSubHeadingListStart        
+    \resumeSubHeadingListStart
     \vspace{-30pt}
-    \resumeSubheading    
+    \resumeSubheading
       {}{}
-      {}{} 
-      
+      {}{}
 \resumeItemListStart
- \resumeItem{Staff Engineer with 14+ years architecting and delivering scalable distributed systems across web and mobile platforms. Led microservices migration serving millions of users at Dish Network.}
-\resumeItem{Drove engineering-wide adoption of DevOps practices, security standards, and architectural patterns across 3+ teams. Deep expertise in Spring Cloud, event-driven architecture, and cloud-native practices on AWS.}
- \resumeItem{Proven track record of technical mentoring, cross-team influence, and delivering measurable business outcomes --- from offline-first mobile apps to containerized microservices platforms.}
+ \resumeItem{Staff Engineer with 14+ years architecting scalable distributed systems across web and mobile platforms. Led microservices platform serving \textbf{10M+ subscribers} at Dish Network with high availability across production.}
+\resumeItem{Drove engineering-wide adoption of DevOps practices, security standards, and architectural patterns across 5+ teams. Deep expertise in Spring Cloud, event-driven architecture (Kafka, RabbitMQ), and cloud-native practices on AWS.}
+ \resumeItem{Proven track record of technical mentoring (\textbf{8+ engineers mentored, 3 promotions}), cross-team influence, and delivering measurable business outcomes --- from offline-first mobile apps to containerized microservices platforms.}
 \resumeItemListEnd
-    
-  \resumeSubHeadingListEnd
-\vspace{-20pt}
 
-%-----------TECHNICAL LEADERSHIP-----------
-\section{Technical Leadership}
-    \resumeSubHeadingListStart        
-    \vspace{-30pt}
-    \resumeSubheading    
-      {}{}
-      {}{} 
-      
-\resumeItemListStart
-\resumeItem{Drove adoption of Spring Boot 3 across engineering teams, standardizing microservices architecture and deployment practices across Dish Network.}
-\resumeItem{Led security transformation by integrating Snyk into CI/CD and mentoring engineers through security training and code reviews.}
- \resumeItem{Established coding standards and architectural review processes adopted across Dish Network engineering.}
-\resumeItem{Established observability practices with \textbf{Dynatrace} across production services; used Dynatrace MCP to investigate production incidents and defects.}
-\resumeItem{Championed AI-augmented development practices using \textbf{Kiro IDE} with steering documents and spec-driven workflows, improving code quality and delivery velocity across the engineering team.}
-\resumeItemListEnd
-    
   \resumeSubHeadingListEnd
-\vspace{-20pt}
-
-%-----------ARCHITECTURE \& INNOVATION-----------
-\section{Architecture \& Innovation}
-    \resumeSubHeadingListStart        
-    \vspace{-30pt}
-    \resumeSubheading    
-      {}{}
-      {}{} 
-      
-\resumeItemListStart
-\resumeItem{Designed microservices architecture for My Dish App platform serving \textbf{10M+ subscribers}; established event-driven patterns using Kafka and RabbitMQ.}
-\resumeItem{Championed offline-first mobile architecture, reducing data usage by \textbf{40\%} and improving field accessibility for technicians.}
-\resumeItem{Led adoption of containerization, observability with \textbf{Dynatrace}, and API design standards across engineering teams, improving deployment reliability and incident response.}
- \resumeItem{Built platforms that enabled other teams: Kiro Mobile adopted by \textbf{50+ engineers}; in-house CMS enabling marketing to update content independently.}
-\resumeItemListEnd
-    
-  \resumeSubHeadingListEnd
-\vspace{-20pt}
+\vspace{-16pt}
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
    \small{\item{
-    \textbf{Languages/Frameworks}{: Java, Spring Boot, Hibernate (ORM), Microservices, JavaScript, ReactJS, Kotlin, SQL, PostgreSQL, Oracle DB, MongoDB, Android SDK, JUnit, Swagger UI} \\
-   \textbf{Technologies/Tools}{: Maven, Gradle, Docker, Kubernetes, Git, GitLab CI/CD, Jenkins, Liquibase, Snyk, Kafka, RabbitMQ, Dynatrace} \\
-   \textbf{Cloud/DevOps}{: AWS (Fargate, S3, EBS, DynamoDB), Firebase, GCP, Google Analytics, Prometheus, Distributed Tracing} \\
+    \textbf{Languages/Frameworks}{: Java, Spring Boot, Spring Cloud, Hibernate, Microservices, JavaScript, ReactJS, Next.js, Kotlin, SQL, PostgreSQL, Oracle DB, MongoDB, Android SDK, JUnit} \\
+   \textbf{Technologies/Tools}{: Maven, Gradle, Docker, Kubernetes, Git, GitLab CI/CD, Jenkins, Liquibase, Snyk, Kafka, RabbitMQ, Dynatrace, Swagger/OpenAPI} \\
+   \textbf{Cloud/DevOps}{: AWS (Fargate, S3, EBS, DynamoDB), Firebase, GCP, Grafana, ELK Stack, Prometheus, Distributed Tracing} \\
    \textbf{Architecture}{: Event-Driven Architecture, CQRS, Microservices Patterns, System Design, API Design, Domain-Driven Design} \\
+   \textbf{Certifications}{: Google Cloud Professional Data Engineer} \\
   }}
  \end{itemize}
 \vspace{-16pt}
 
-%-----------CERTIFICATIONS-----------
-\section{Certifications}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Google Cloud Professional Data Engineer}{}{}{}
-  \resumeSubHeadingListEnd
-\vspace{-16pt}
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+   \resumeSubHeadingListStart
 
-%-----------PROJECTS-----------
-\section{Projects}
-   \vspace{2pt}
-   \resumeSubHeadingListStart    
   \resumeProjectHeading{\textbf{Dish Network Technologies $\vert$ Staff Engineer}}{May 2022 -- Present}
       \resumeItemListStart
-          \resumeItem{\textbf{Technical Excellence Award} (2025, 2024) for advancing technology capabilities.}
-          \resumeItem{\textbf{Spot Award} (2025, 2023) for exceptional performance on key projects.}
+          \resumeItem{\textbf{Technical Excellence Award} (2025, 2024) $\cdot$ \textbf{Spot Award} (2025, 2023) $\cdot$ \textbf{CPAW Award} $\cdot$ \textbf{Codefest 2023 Winner} $\cdot$ \textbf{Hackathon 2022 Runner Up}}
       \resumeItemListEnd
-   
+
 \vspace{-13pt}
 \resumeProjectHeading
-     {\textbf{Kiro Mobile -- AI DevOps Command Center}}{}
+     {\textbf{Kiro Mobile -- AI DevOps Command Center} $|$ \emph{React Native, WebSocket, Node.js, Firebase}}{2025}
 \resumeItemListStart
- \resumeItem{Architected a mobile-first platform enabling developers to manage AI coding tasks from their phones --- zero-installation, real-time WebSocket updates, live code change monitoring.}
-\resumeItem{Built automated defect resolution workflows integrating Jira, Dynatrace, GitLab MRs, and unit tests; presented at \textbf{Dish Ignite 2026} (AI Demo Day) and adopted by the engineering team, improving defect resolution efficiency.}
+ \resumeItem{Architected a mobile-first platform enabling developers to manage AI coding tasks from their phones --- zero-installation, real-time WebSocket updates, live code change monitoring. Adopted by \textbf{50+ engineers}.}
+\resumeItem{Built automated defect resolution workflows integrating Jira, Dynatrace, GitLab MRs, and unit tests; presented at \textbf{Dish Ignite 2026} (AI Demo Day), improving defect resolution efficiency across the engineering team.}
 \resumeItemListEnd
+
 \vspace{-13pt}
 \resumeProjectHeading
-    {\textbf{My Dish App}}{}
+    {\textbf{My Dish App -- Flagship Subscriber Platform} $|$ \emph{Java, Spring Boot 3, Spring Cloud, Kafka, AWS Fargate}}{2022 -- Present}
 \resumeItemListStart
-\resumeItem{Architected and led delivery of the flagship microservices platform, ensuring high availability across production for \textbf{10M+ subscribers}.}
-\resumeItem{Led AI-augmented migration of all microservices to Spring Boot 3 using \textbf{Kiro IDE} with steering documents and spec-driven development, accelerating delivery while improving performance, maintainability, and deployment speed across all production services.}
-\resumeItem{Received \textbf{CPAW Award} for the My Dish App project release.}
+\resumeItem{Architected and led delivery of the microservices platform ensuring high availability for \textbf{10M+ subscribers} with event-driven patterns using Kafka and RabbitMQ.}
+\resumeItem{Led migration of \textbf{12+ microservices} to Spring Boot 3 using AI-augmented development (Kiro IDE with steering documents), accelerating delivery velocity while improving performance and deployment speed.}
+\resumeItem{Integrated \textbf{Snyk} security scanning into CI/CD pipeline; drove adoption across all engineering teams, proactively identifying and remediating vulnerabilities.}
 \resumeItemListEnd
-  \vspace{-13pt}
-  \resumeProjectHeading
-        {\textbf{Dish Paperless Agreement App}}{}
-  \resumeItemListStart
-      \resumeItem{Migrated legacy ColdFusion application to Spring Boot, eliminating technical debt and improving service reliability while resolving chronic production defects.}
-  \resumeItemListEnd
+
 \vspace{-13pt}
 \resumeProjectHeading
-       {\textbf{Set-Top-Box Health App}}{}
+      {\textbf{Dish Paperless Agreement App} $|$ \emph{Java, Spring Boot, Spring Cloud}}{2023}
 \resumeItemListStart
-     \resumeItem{Built a real-time monitoring dashboard for analyzing Set-Top-Box payload details across \textbf{10M+ subscriber devices}, enabling data-driven decisions.}
-     \resumeItem{Developed and deployed RESTful APIs to capture payload data from the UI and persist it in PostgreSQL.}
+    \resumeItem{Migrated legacy ColdFusion application to Spring Boot microservices, eliminating technical debt and resolving chronic production defects that impacted subscriber onboarding.}
 \resumeItemListEnd
+
 \vspace{-13pt}
 \resumeProjectHeading
-   {\textbf{In-Home Service Catalogue App}}{}
+     {\textbf{Set-Top-Box Health App} $|$ \emph{Java, Spring Boot, PostgreSQL, REST APIs}}{2023}
 \resumeItemListStart
-  \resumeItem{Achieved a \textbf{60\% increase in on-site technical sales} through a feature-rich mobile catalogue for field technicians.}
-  \resumeItem{Developed an \textbf{offline-first mobile app} with CMS content download, reducing data usage by \textbf{40\%} and improving field accessibility.}
+   \resumeItem{Built a real-time monitoring dashboard analyzing Set-Top-Box payload details across \textbf{10M+ subscriber devices}, enabling data-driven decisions for network operations.}
+\resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+   {\textbf{In-Home Service Catalogue App} $|$ \emph{Kotlin, Android SDK, Google Analytics, Crashlytics}}{2022 -- 2023}
+\resumeItemListStart
+  \resumeItem{Achieved a \textbf{60\% increase in on-site technical sales} through a feature-rich offline-first mobile catalogue for field technicians; reduced data usage by \textbf{40\%}.}
   \resumeItem{Built an in-house CMS enabling the marketing team to update content independently, cutting update turnaround time by \textbf{70\%}.}
 \resumeItemListEnd
+
 \vspace{-13pt}
 \resumeProjectHeading
-  {\textbf{Shift Allowance Management App}}{}
+  {\textbf{Asset Management App} $|$ \emph{Java, Spring Boot, Next.js, PostgreSQL, Docker, Grafana}}{2023}
+\resumeItemListStart
+\resumeItem{Led end-to-end development --- requirements gathering, architecture design, implementation. Containerized deployment with Grafana monitoring achieved \textbf{70\% reduction in manual effort} and \textbf{company-wide adoption}. Won \textbf{Codefest 2023}.}
+\resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+  {\textbf{Shift Allowance Management App} $|$ \emph{Java, Spring Boot, Next.js, PostgreSQL, Docker}}{2022}
 \resumeItemListStart
 \resumeItem{Automated shift allowance calculations for \textbf{500+ employees}, eliminating manual errors and reducing administrative workload by \textbf{60\%}.}
- \resumeItem{Improved payroll transparency and accuracy, increasing employee satisfaction with allowance processing.}
 \resumeItemListEnd
+
 \vspace{-13pt}
 \resumeProjectHeading
-  {\textbf{Asset Management App}}{}
+{\textbf{Employee Seat Booking App} $|$ \emph{Java, Spring Boot, ReactJS, PostgreSQL, Docker}}{2022}
 \resumeItemListStart
-\resumeItem{Led end-to-end development of this award-winning app. Containerized deployment with monitoring achieved a \textbf{70\% reduction in manual effort} and \textbf{company-wide adoption}. Won \textbf{Codefest 2023}.}
- \resumeItem{Gathered requirements from stakeholders, designed the architecture, and led implementation of the entire codebase.}
+  \resumeItem{Led backend development with REST APIs for seamless frontend integration. Recognized as \textbf{1st Runner Up} at Dish Network Hackathon 2022.}
 \resumeItemListEnd
 \vspace{-13pt}
-\resumeProjectHeading
-{\textbf{Employee Seat Booking App}}{}
-\resumeItemListStart
-  \resumeItem{Led backend development, designing REST APIs for seamless frontend-backend integration. Recognized as \textbf{1st Runner Up} at Dish Network Hackathon 2022.}
-\resumeItemListEnd
-\vspace{-13pt}
-   
+
   \resumeProjectHeading{\textbf{MSys Technologies $\vert$ Technical Architect / Lead}}{Feb 2012 -- May 2022}
       \resumeItemListStart
-          \resumeItem{\textbf{Best Performer of the Year} (2013, 2014, 2016, 2018, 2019).}
-          \resumeItem{\textbf{Blog Championship Award} (2017).}
+          \resumeItem{\textbf{Best Performer of the Year} (2013, 2014, 2016, 2018, 2019) $\cdot$ \textbf{Blog Championship Award} (2017)}
       \resumeItemListEnd
- 
+
 \vspace{-13pt}
 \resumeProjectHeading
-{\textbf{Pivot3 -- VMware Ecosystem}}{}
+{\textbf{Pivot3 -- VMware Ecosystem} $|$ \emph{Java, Spring, VMware SDK, ReactJS, vRealize SDK}}{2018 -- 2022}
 \resumeItemListStart
-\resumeItem{Developed backend REST services for the Pivot3 platform, supporting HCI volumes with comprehensive unit tests and API reliability across the ecosystem.}
-\resumeItem{Built a ReactJS-based UI plugin for managing Pivot3 volumes, improving operator workflow efficiency across VMware deployments.}
-\resumeItem{Developed a vRealize plugin integrating with VMware's vRealize suite, automating batch HCI volume creation and reducing manual effort by \textbf{60\%}.}
-\resumeItemListEnd
-   
-\vspace{-13pt}
-\resumeProjectHeading
-{\textbf{Android Mobile Apps}}{}
-\resumeItemListStart
- \resumeItem{Built secure enterprise apps for Nasuni and Spree Wearables with real-time Firebase sync and analytics across \textbf{thousands of active devices}.}
+\resumeItem{Developed backend REST services supporting \textbf{1000+ HCI volumes} with comprehensive unit tests; built ReactJS UI plugin and vRealize automation plugin, reducing manual effort by \textbf{60\%} across VMware deployments.}
 \resumeItemListEnd
 
 \vspace{-13pt}
 \resumeProjectHeading
-     {\textbf{QA \& Test Automation}}{}
+{\textbf{Android Mobile Apps} $|$ \emph{Android SDK, Java, Firebase, Google Analytics}}{2015 -- 2018}
 \resumeItemListStart
-\resumeItem{Developed Mobitaz automation libraries and a NetApp regression suite, accelerating execution and reducing manual QA effort by \textbf{50\%}.}
+ \resumeItem{Built secure enterprise apps for Nasuni (cloud storage) and Spree Wearables (health tracking) with real-time Firebase sync and analytics across \textbf{thousands of active devices}.}
 \resumeItemListEnd
 
 \vspace{-13pt}
 \resumeProjectHeading
-     {\textbf{Web \& Infrastructure}}{}
+     {\textbf{QA \& Test Automation} $|$ \emph{Java, Selenium, TestNG, Robotium}}{2012 -- 2015}
 \resumeItemListStart
- \resumeItem{Built the MSys company website with the marketing team, integrated analytics, and increased customer engagement by \textbf{40\%}.}
+\resumeItem{Developed Mobitaz automation libraries (multi-device playback) and NetApp regression suite covering \textbf{100+ scenarios}, reducing manual QA effort by \textbf{50\%}.}
+\resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+     {\textbf{Auto Configuration Server \& Web} $|$ \emph{Java, Spring, JBoss, PHP/WordPress}}{2012 -- 2014}
+\resumeItemListStart
+ \resumeItem{Developed REST APIs with Spring Framework; built MSys company website increasing customer engagement by \textbf{40\%}.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
+
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
@@ -300,5 +233,5 @@
       {Anna University -- SIT, Tamil Nadu $|$ \emph{Bachelor of Information Technology}}{Aug 2007 -- May 2011}
       {}{}
   \resumeSubHeadingListEnd
- 
+
 \end{document}
