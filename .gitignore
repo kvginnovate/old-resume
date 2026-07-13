@@ -6,7 +6,7 @@ credentials.json
 *.log
 *.out
 *.synctex.gz
-main.pdf
+*.pdf
 
 # OS files
 Thumbs.db
