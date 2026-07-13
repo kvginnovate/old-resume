@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Resume Preview</title>
+  <style>
+    body { margin: 0; background: #333; font-family: sans-serif; }
+    .bar { position: fixed; top: 0; left: 0; right: 0; background: #1a1a2e; color: #eee; padding: 8px 16px; display: flex; justify-content: space-between; align-items: center; font-size: 13px; z-index: 10; }
+    .bar a { color: #4fc3f7; text-decoration: none; margin-left: 12px; }
+    .btn { background: #4caf50; color: white; border: none; padding: 4px 12px; border-radius: 4px; cursor: pointer; font-size: 12px; margin-left: 12px; }
+    .btn:hover { background: #388e3c; }
+    #status { color: #aaa; font-size: 12px; }
+    iframe { width: 90vw; height: 95vh; margin: 36px auto; display: block; border: none; background: white; box-shadow: 0 4px 20px rgba(0,0,0,0.4); }
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <span>Resume Preview</span>
+    <span>
+      <span id="status">Ready</span>
+      <button class="btn" onclick="refreshPDF()">Refresh PDF</button>
+      <a href="main.pdf" target="_blank">Open in new tab</a>
+    </span>
+  </div>
+  <iframe id="viewer" src="main.pdf"></iframe>
+  <script>
+    function refreshPDF() {
+      const iframe = document.getElementById('viewer');
+      const scrollPos = iframe.contentWindow ? iframe.contentWindow.scrollY : 0;
+      iframe.src = 'main.pdf?' + Date.now();
+      document.getElementById('status').textContent = 'Refreshed at ' + new Date().toLocaleTimeString();
+    }
+    // Keyboard shortcut: Ctrl+R or F5 in the bar area triggers refresh
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'F5' || (e.ctrlKey && e.key === 'r')) {
+        e.preventDefault();
+        refreshPDF();
+      }
+    });
+  </script>
+</body>
+</html>

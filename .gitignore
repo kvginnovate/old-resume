@@ -1,0 +1,14 @@
+# OAuth / API credentials — NEVER commit
+credentials.json
+
+# LaTeX build artifacts (regenerable)
+*.aux
+*.log
+*.out
+*.synctex.gz
+main.pdf
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
