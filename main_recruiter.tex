@@ -1,0 +1,189 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Chokkar Gurusamy} \\ \vspace{1pt}
+     Bangalore  \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 (99408) 92858 ~ \href{mailto:chokar.g@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{chokar.g@gmail.com}} ~ 
+    \href{https://linkedin.com/in/chokkarg}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/chokkarg}}
+\end{center}
+
+\section{Professional Summary}
+\resumeSubHeadingListStart
+\resumeSubheading{}{}{}{}
+\resumeItemListStart
+\resumeItem{Staff Engineer with 14+ years architecting and delivering scalable distributed systems across web and mobile platforms. Led microservices migration serving millions of users at Dish Network.}
+\resumeItem{Drove engineering-wide adoption of DevOps practices, security standards, and architectural patterns across 3+ teams. Deep expertise in Spring Cloud, event-driven architecture, and cloud-native practices on AWS.}
+\resumeItem{Proven track record of technical mentoring, cross-team influence, and delivering measurable business outcomes.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Technical Leadership}
+\resumeSubHeadingListStart
+\resumeSubheading{}{}{}{}
+\resumeItemListStart
+\resumeItem{Drove adoption of Spring Boot 2.7 across 3 engineering teams, standardizing microservices architecture and deployment practices.}
+\resumeItem{Led security transformation by integrating Snyk into CI/CD; mentored \textbf{8 engineers}, contributing to \textbf{3 promotions}.}
+ \resumeItem{Established coding standards and architectural review processes adopted across engineering.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+\section{Architecture \& Innovation}
+\resumeSubHeadingListStart
+\resumeSubheading{}{}{}{}
+\resumeItemListStart
+\resumeItem{Designed microservices architecture for My Dish App platform serving \textbf{10M+ subscribers}; established event-driven patterns using Kafka and RabbitMQ.}
+\resumeItem{Championed offline-first mobile architecture, reducing data usage by \textbf{40\%} and improving field accessibility for technicians.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Languages/Frameworks}{: Java, Spring Boot, Microservices, JavaScript, ReactJS, Kotlin, SQL, PostgreSQL, Android SDK} \\
+   \textbf{Technologies/Tools}{: Docker, Kubernetes, GitLab CI/CD, Jenkins, Liquibase, Snyk, Kafka, RabbitMQ} \\
+   \textbf{Cloud/DevOps}{: AWS, Firebase, GCP, Grafana, ELK Stack, Prometheus, Distributed Tracing} \\
+   \textbf{Architecture}{: Event-Driven Architecture, CQRS, System Design, API Design, Domain-Driven Design} \\
+  }}
+\end{itemize}
+\vspace{-14pt}
+
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+ \item \small{Google Cloud Professional Data Engineer}
+\end{itemize}
+\vspace{-14pt}
+
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading{\textbf{Dish Network Technologies $|$ Staff Engineer}}{May 2022 -- Present}
+\resumeItemListStart
+ \resumeItem{\textbf{Technical Excellence Award} (2025, 2024) for advancing technology capabilities.}
+ \resumeItem{\textbf{Spot Award} (2025, 2023) for exceptional performance on key projects.}
+\resumeItemListEnd
+
+\vspace{-10pt}
+\resumeProjectHeading{\textbf{Kiro Mobile -- AI DevOps Command Center}}{}
+\resumeItemListStart
+ \resumeItem{Architected a mobile-first platform enabling developers to manage AI coding tasks from their phones --- zero-installation, real-time WebSocket updates, live code change monitoring.}
+ \resumeItem{Built automated defect resolution workflows integrating Jira, Dynatrace, GitLab MRs, and unit tests; presented at \textbf{Dish Ignite 2026} and adopted by \textbf{50+ engineers}.}
+\resumeItemListEnd
+
+\vspace{-10pt}
+\resumeProjectHeading{\textbf{My Dish App}}{}
+\resumeItemListStart
+ \resumeItem{Architected and led delivery of the flagship microservices platform, ensuring high availability across production for \textbf{10M+ subscribers}.}
+ \resumeItem{Led migration of all microservices to Spring Boot 2.7, improving performance, maintainability, and deployment speed.}
+ \resumeItem{Received \textbf{CPAW Award} for the My Dish App project release.}
+\resumeItemListEnd
+
+\vspace{-10pt}
+\resumeProjectHeading{\textbf{In-Home Service Catalogue App}}{}
+\resumeItemListStart
+  \resumeItem{Achieved a \textbf{60\% increase in on-site technical sales} through an offline-first mobile catalogue for field technicians.}
+  \resumeItem{Reduced data usage by \textbf{40\%} and cut content update turnaround by \textbf{70\%}.}
+\resumeItemListEnd
+
+\vspace{-10pt}
+\resumeProjectHeading{\textbf{Asset Management App}}{}
+\resumeItemListStart
+  \resumeItem{Led end-to-end development of this award-winning app; containerized deployment with Grafana monitoring achieved a \textbf{70\% reduction in manual effort} and \textbf{company-wide adoption}.}
+\resumeItemListEnd
+
+\vspace{-10pt}
+\resumeProjectHeading{\textbf{MSys Technologies $|$ Technical Architect / Lead}}{Feb 2012 -- May 2022}
+\resumeItemListStart
+  \resumeItem{\textbf{Best Performer of the Year} (2013, 2014, 2016, 2018, 2019). \textbf{Blog Championship Award} (2017).}
+\resumeItemListEnd
+
+\vspace{-10pt}
+\resumeProjectHeading{\textbf{Pivot3 -- VMware Ecosystem}}{}
+\resumeItemListStart
+  \resumeItem{Developed backend REST services supporting \textbf{1000+ HCI volumes}; built UI and vRealize plugins, reducing manual effort by \textbf{60\%}.}
+\resumeItemListEnd
+
+\vspace{-10pt}
+\resumeProjectHeading{\textbf{Android Mobile Apps}}{}
+\resumeItemListStart
+  \resumeItem{Built secure enterprise apps for Nasuni and Spree Wearables with real-time Firebase sync and analytics across thousands of active devices.}
+\resumeItemListEnd
+
+\vspace{-10pt}
+\resumeProjectHeading{\textbf{QA \& Test Automation}}{}
+\resumeItemListStart
+  \resumeItem{Developed Mobitaz automation libraries and a NetApp regression suite, accelerating execution for \textbf{100+ scenarios} and reducing manual QA effort by \textbf{50\%}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Anna University -- SIT, Tamil Nadu $|$ \emph{Bachelor of Information Technology}}{Aug 2007 -- May 2011}
+    {}{}
+\resumeSubHeadingListEnd
+
+\end{document}
