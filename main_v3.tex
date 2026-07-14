@@ -1,0 +1,240 @@
+%-------------------------
+% Call Awesome Resume Template
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\setlength{\footskip}{5.0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Chokkar Gurusamy} \\ \vspace{1pt}
+     Bangalore, India  \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 99408 92858 ~
+    \href{mailto:chokkar.g@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{chokkar.g@gmail.com}} ~
+    \href{https://linkedin.com/in/chokkarg}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/chokkarg}} ~
+    \href{https://github.com/kvginnovate}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/kvginnovate}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+    \resumeSubHeadingListStart
+    \vspace{-30pt}
+    \resumeSubheading
+      {}{}
+      {}{}
+\resumeItemListStart
+\resumeItem{Staff Engineer with 14+ years building distributed systems across backend, mobile, and platform engineering. Own the architecture for Dish Network's subscriber-facing microservices platform (\textbf{[X]+ microservices}, \textbf{[X]M+ subscribers}) deployed on Rancher-managed Kubernetes, serving the full US subscriber base.}
+\resumeItem{Cross-team technical influence: promoted \textbf{Lead $\rightarrow$ Staff} for driving the Spring Boot 3 migration across all services, standardizing Snyk security scanning org-wide, and pioneering AI-driven engineering workflows (Kiro spec-driven development, MCP integrations) that reduced incident remediation time by [\textbf{X\%}].}
+  \resumeItem{Technical leader across hiring, mentoring, and architecture: mentor [\textbf{X}] engineers ([\textbf{X}] promoted), lead architectural reviews and incident response, and participate in senior/staff hiring panels.}
+\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Languages}{: Java, Kotlin, JavaScript, TypeScript, Python, SQL} \\
+   \textbf{Frameworks}{: Spring Boot 3, Spring Cloud, Hibernate, ReactJS, Next.js, React Native, Android SDK, JUnit} \\
+  \textbf{Distributed Systems}{: Microservices Architecture, Circuit Breaker, API Gateway, REST APIs, API-First Design (OpenAPI)} \\
+   \textbf{Infrastructure}{: Docker, Kubernetes, Rancher, AWS (S3, DynamoDB), Firebase, GCP} \\
+  \textbf{Observability \& DevOps}{: Dynatrace, Prometheus, ELK Stack, GitLab CI/CD, Jenkins, Snyk} \\
+  \textbf{AI \& Automation}{: Kiro (Spec-Driven Dev), MCP Integrations, Custom Agent Skills, LLM Workflows} \\
+  \textbf{Architecture}{: System Design, DDD, Microservices Patterns, Architectural Decision Records} \\
+ }}
+\end{itemize}
+\vspace{-16pt}
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+ \resumeProjectHeading{\textbf{Dish Network Technologies}}{May 2022 -- Present}
+     \resumeItemListStart
+         \resumeItem{Promoted \textbf{Lead Engineer $\rightarrow$ Staff Engineer} based on org-wide impact: authored the Spring Boot 3 migration guide adopted across [\textbf{X}] services, drove Snyk security scanning adoption across [\textbf{X}] engineering teams, and pioneered AI-driven developer workflows now used by [\textbf{X}] engineers.}
+         \resumeItem{Mentor [\textbf{X}] senior engineers across multiple teams; conduct architectural reviews, lead on-call incident response with post-mortems and runbooks, and participate in senior/staff hiring panels.}
+         \resumeItem{\textbf{Annual Technical Excellence Award} (2x: 2025, 2024) $\cdot$ \textbf{Spot Award} (2x: 2025, 2023) $\cdot$ \textbf{CPAW Award}}
+     \resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+   {\textbf{My Dish App -- Subscriber Platform}}{}
+\resumeItemListStart
+\resumeItem{Architected distributed microservices using REST APIs and spearheaded the migration to \textbf{GemFire} for high-performance distributed caching --- reduced data access latency by [\textbf{X\%}] and offloaded [\textbf{X\%}] of database read load.}
+\resumeItem{Drove the Spring Boot 3 migration across all services --- wrote the migration guide, defined guardrails, and paired with teams to resolve breaking changes. Result: [\textbf{X\%}] faster startup times, improved GC behavior, and unblocked critical security patches.}
+\resumeItem{Integrated Snyk into the CI/CD pipeline and drove adoption across [\textbf{X}] engineering teams. Established a triage and remediation process prioritized by exploitability, reducing critical vulnerability exposure from [\textbf{X days} to \textbf{X hours}].}
+\resumeItem{Set up structured observability: Dynatrace for APM, distributed tracing, and dashboards for service health, with PagerDuty alerting and documented runbooks. Own the incident response process across [\textbf{X}] services.}
+\resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+    {\textbf{Kiro Mobile -- AI DevOps Command Center}}{}
+\resumeItemListStart
+\resumeItem{Built a mobile app enabling developers to trigger and monitor AI coding tasks from their phones --- real-time WebSocket updates, GitLab MR status, and Dynatrace alerts in one view. Deployed to [\textbf{X}] engineers across Dish.}
+\resumeItem{Created custom MCP servers for GitLab and Jira and authored specialized agent skills (defect-fix, test-generation, code-review) to automate end-to-end incident remediation. Presented at Dish Ignite 2026 (internal AI demo day).}
+\resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+   {\textbf{In-Home Service Catalogue App}}{}
+\resumeItemListStart
+ \resumeItem{Built an offline-first mobile app for field technicians with local content caching --- eliminated the need for cellular connectivity during customer visits. Contributed to a [\textbf{X\%}] increase in on-site upsell conversion (per sales team data).}
+ \resumeItem{Designed and built a lightweight CMS so the marketing team could update catalogue content without engineering involvement, cutting their publish cycle from weeks to hours.}
+\resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+ {\textbf{Dish Paperless Agreement App}}{}
+\resumeItemListStart
+\resumeItem{Led the migration of a legacy ColdFusion application to Spring Boot microservices, eliminating chronic production issues and stabilizing subscriber onboarding across [\textbf{X}] regional markets. Reduced agreement processing failures by [\textbf{X\%}].}
+\resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+ {\textbf{Set-Top-Box Health App (STB Health Monitor)}}{}
+\resumeItemListStart
+\resumeItem{Built real-time monitoring dashboards and REST APIs to capture and analyze Set-Top-Box payload data across \textbf{10M+ subscriber devices}, empowering field technicians and network operations to proactively identify and resolve issues before subscriber impact.}
+\resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+ {\textbf{Internal Tools \& Hackathon Projects}}{}
+\resumeItemListStart
+\resumeItem{Built 3 internal tools (Asset Management, Shift Allowance, Seat Booking) --- full-stack, containerized, with Dynatrace dashboards. Asset Management won \textbf{Codefest 2023} and was adopted company-wide.}
+\resumeItem{Developed responsive, server-side rendered \textbf{Next.js} web frontends integrated with RESTful Spring Boot backends, ensuring sub-second page loads and clean separation of concerns.}
+\resumeItemListEnd
+
+\vspace{-13pt}
+
+  \resumeProjectHeading{\textbf{MSys Technologies (now Aziro) $\vert$ Technical Architect / Lead}}{Feb 2012 -- May 2022}
+     \resumeItemListStart
+         \resumeItem{Grew from \textbf{Software Engineer $\rightarrow$ Senior $\rightarrow$ Tech Lead $\rightarrow$ Technical Architect} over 10 years at an IT services firm ([\textbf{X}] employees). Served US-based clients (Pivot3, Nasuni, NetApp) in storage, virtualization, and cloud.}
+         \resumeItem{Led teams of 3--8 engineers. Owned client relationships end-to-end: scoping, architecture, sprint demos, and delivery. Grew the Pivot3 engagement from 3 to 6 engineers through successful delivery and technical proposals that expanded the scope of work.}
+         \resumeItem{\textbf{Best Performer of the Year} (5x: 2013, 2014, 2016, 2018, 2019)}
+     \resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+{\textbf{Pivot3 -- VMware HCI Platform}}{}
+\resumeItemListStart
+\resumeItem{Served as Technical Lead for Pivot3's VMware integration, architecting backend REST APIs, a ReactJS vSphere UI plugin, and a vRealize Orchestrator plugin that automated bulk HCI volume provisioning --- reducing provisioning time from [\textbf{X hours} to \textbf{X minutes}].}
+\resumeItem{Interfaced directly with the US-based product team to drive roadmap alignment and architecture design reviews. Delivered [\textbf{X releases}] on schedule across [\textbf{X sprints}], maintaining [\textbf{X\%}] sprint commitment rate.}
+\resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+{\textbf{Enterprise Mobile Apps -- Nasuni \& Spree}}{}
+\resumeItemListStart
+\resumeItem{Led a 3-person engineering team to design and ship two enterprise Android apps on the Google Play Store: Nasuni (cloud storage client) and Spree Wearables (fitness companion).}
+\resumeItem{Implemented real-time data synchronization using Firebase and integrated analytics (Google Analytics for Firebase) to monitor crash rates and user engagement, reducing crash-free rate from [\textbf{X\%} to \textbf{X\%}].}
+\resumeItemListEnd
+
+\vspace{-13pt}
+\resumeProjectHeading
+    {\textbf{Mobitaz \& NetApp -- Test Automation}}{}
+\resumeItemListStart
+\resumeItem{Built Mobitaz, an in-house mobile test automation framework (record and playback across multiple devices). Adopted by the QA team and used in client demos as part of MSys's QA service offering.}
+\resumeItem{Designed and implemented NetApp's Selenium-based regression test suite, reducing manual regression effort from [\textbf{X days} to \textbf{X hours}] per release.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Anna University -- SIT, Tamil Nadu $|$ \emph{Bachelor of Information Technology}}{2007 -- 2011}
+      {\emph{CGPA: [\textbf{X.XX}] / 10}}{}
+  \resumeSubHeadingListEnd
+
+\vspace{-12pt}
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Google Cloud Professional Data Engineer}{}{}{}
+  \resumeSubHeadingListEnd
+
+\end{document}

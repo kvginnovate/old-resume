@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chokkar Gurusamy — Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #1a1a2e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    .header {
+      width: 100%;
+      padding: 16px 24px;
+      background: #16213e;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .header h1 {
+      color: #e0e0e0;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .header a {
+      color: #4fc3f7;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 8px 16px;
+      border: 1px solid #4fc3f7;
+      border-radius: 6px;
+      transition: all 0.2s;
+    }
+    .header a:hover {
+      background: #4fc3f7;
+      color: #1a1a2e;
+    }
+    .pdf-container {
+      width: 100%;
+      max-width: 900px;
+      flex: 1;
+      padding: 20px;
+    }
+    embed {
+      width: 100%;
+      height: calc(100vh - 80px);
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    @media (max-width: 768px) {
+      .pdf-container { padding: 8px; }
+      embed { height: calc(100vh - 70px); }
+      .header h1 { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Chokkar Gurusamy — Staff Engineer</h1>
+    <a href="main_v3.pdf" download>⬇ Download PDF</a>
+  </div>
+  <div class="pdf-container">
+    <embed src="main_v3.pdf" type="application/pdf">
+  </div>
+</body>
+</html>
