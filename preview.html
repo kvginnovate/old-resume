@@ -19,15 +19,15 @@
     <span>
       <span id="status">Ready</span>
       <button class="btn" onclick="refreshPDF()">Refresh PDF</button>
-      <a href="main.pdf" target="_blank">Open in new tab</a>
+      <a href="main_v3.pdf" target="_blank">Open in new tab</a>
     </span>
   </div>
-  <iframe id="viewer" src="main.pdf"></iframe>
+  <iframe id="viewer" src="main_v3.pdf"></iframe>
   <script>
     function refreshPDF() {
       const iframe = document.getElementById('viewer');
       const scrollPos = iframe.contentWindow ? iframe.contentWindow.scrollY : 0;
-      iframe.src = 'main.pdf?' + Date.now();
+      iframe.src = 'main_v3.pdf?' + Date.now();
       document.getElementById('status').textContent = 'Refreshed at ' + new Date().toLocaleTimeString();
     }
     // Keyboard shortcut: Ctrl+R or F5 in the bar area triggers refresh
