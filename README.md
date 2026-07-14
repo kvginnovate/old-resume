@@ -13,17 +13,94 @@ OLD_Resume/
 ├── main.tex                  # Primary resume (2 pages, full version)
 ├── main_v2.tex               # Compact alternative (1 page)
 ├── main_recruiter.tex        # Short recruiter-focused version
-├── main_v3.tex               # Latest version with improved content
-├── main_v3.pdf               # Compiled PDF (served by GitHub Pages)
+├── main_v3.tex               # Latest version with real metrics
+├── main_v3.pdf               # Compiled PDF
 ├── docs/
 │   ├── index.html            # Web viewer (PDF.js inline renderer)
-│   └── main_v3.pdf           # PDF copy served by GitHub Pages
+│   └── main_v3.pdf           # PDF served by GitHub Pages
 ├── company_reqq/             # Job requirement screenshots
 ├── setup-docs/               # Setup instructions
 ├── deploy_netlify.py         # Netlify deploy script (alternative hosting)
+├── server.js                 # Local preview server (Node.js)
 ├── preview.html              # Local live-reload preview
 ├── .gitignore                # Excludes PDFs (except docs/), credentials, build artifacts
 └── README.md                 # This file
+```
+
+---
+
+## Daily Workflow: Edit → Compile → Push
+
+This is the step-by-step process for making changes and deploying them.
+
+### Step 1: Edit the Resume
+
+Edit `main_v3.tex` in your favorite editor (VS Code, Overleaf, etc.):
+
+```bash
+# Open in VS Code
+code main_v3.tex
+```
+
+Make your changes to the content, formatting, or structure.
+
+### Step 2: Compile to PDF
+
+```bash
+cd E:\1_Resume_Prepreation\OLD_Resume
+"%LOCALAPPDATA%/Programs/MiKTeX/miktex/bin/x64/pdflatex.exe" -interaction=nonstopmode main_v3.tex
+```
+
+**Important:** Run twice if you have cross-references or TOC changes.
+
+Check for errors:
+- `Overfull \hbox` — minor, ignore (text slightly wider than line)
+- `Font shape undefined` — cosmetic, ignore
+- `Missing }` — syntax error, fix the tex file
+
+### Step 3: Preview Locally
+
+```bash
+# Start the preview server (if not running)
+"C:/Program Files/nodejs/node.exe" server.js
+```
+
+Open **http://localhost:8888/preview.html** — the iframe auto-loads `main_v3.pdf`.
+
+Click **Refresh PDF** or press **Ctrl+R** to reload after recompiling.
+
+### Step 4: Copy PDF to docs/
+
+GitHub Pages serves from `docs/`, so the PDF must be there:
+
+```bash
+cp main_v3.pdf docs/main_v3.pdf
+```
+
+### Step 5: Push to GitHub
+
+```bash
+git add main_v3.tex main_v3.pdf docs/main_v3.pdf
+git commit -m "update: [describe your changes]"
+git push origin main
+```
+
+### Step 6: Live in ~30 Seconds
+
+GitHub Pages auto-deploys on push. No manual action needed.
+
+**Live URL:** https://kvginnovate.github.io/old-resume/
+
+### Quick Reference (Copy-Paste)
+
+```bash
+# Full workflow in one block
+cd E:\1_Resume_Prepreation\OLD_Resume
+"%LOCALAPPDATA%/Programs/MiKTeX/miktex/bin/x64/pdflatex.exe" -interaction=nonstopmode main_v3.tex
+cp main_v3.pdf docs/main_v3.pdf
+git add main_v3.tex main_v3.pdf docs/main_v3.pdf
+git commit -m "update: your changes here"
+git push origin main
 ```
 
 ---
@@ -38,11 +115,10 @@ OLD_Resume/
 
 ### 2. Local Preview Server
 
-Python HTTP server with live reload:
+Node.js server (`server.js`) serves the project directory on port 8888:
 
 ```bash
-cd E:\1_Resume_Prepreation\OLD_Resume
-python -m http.server 8888
+"C:/Program Files/nodejs/node.exe" server.js
 ```
 
 Open **http://localhost:8888/preview.html** — refresh after each compilation to see changes.
@@ -134,21 +210,33 @@ MiKTeX is installed at user level (not system-wide):
 | `main.tex` | 2 | Primary full resume |
 | `main_v2.tex` | 1 | Compact version (trimmed bullets) |
 | `main_recruiter.tex` | 1 | Short recruiter-focused |
-| `main_v3.tex` | 2 | Latest — improved content, placeholders for metrics |
+| `main_v3.tex` | 2 | Latest — improved content with real metrics |
 
 ### main_v3 Improvements Over main.tex
 
 - Added GitHub link to heading
-- Platform scale numbers (`[X]+ microservices`, `[X]M+ subscribers`)
+- Platform scale numbers (10M+ subscribers, 3+ teams, 50+ engineers)
 - Rewrote promotion line (full scope, not just Spring Boot 3)
 - Removed corporate fluff ("foster engineering culture")
 - Consolidated personal AI tools (cut Paseo/Orca/OMP)
 - Merged MCP into "AI & Automation" section
 - Moved certifications to own section
-- Added `[X]` placeholders for real metrics
-- Fixed In-Home App "measurable increase" → `[X%]` placeholder
 - Added 2nd bullets to 1-bullet projects
 - Outcome-focused Pivot3 bullets
+- Added Kafka, RabbitMQ, GemFire, ELK, PagerDuty to skills
+- Added CGPA placeholder in education
+
+---
+
+## Troubleshooting
+
+| Problem | Solution |
+|---|---|
+| `pdflatex` not found | Use full path: `"%LOCALAPPDATA%/Programs/MiKTeX/miktex/bin/x64/pdflatex.exe"` |
+| Port 8888 in use | `netstat -ano \| findstr 8888` → `taskkill -PID <pid> -F` |
+| GitHub Pages not updating | Wait 30s, hard refresh (Ctrl+Shift+R), check `git log` |
+| PDF blank on mobile | Ensure `docs/index.html` uses PDF.js with `scale = 2` |
+| LaTeX errors | Check `main_v3.log` for details |
 
 ---
 
