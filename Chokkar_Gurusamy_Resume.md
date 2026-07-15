@@ -6,7 +6,7 @@
 
 ## Professional Summary
 
-Staff Engineer with **14+ years of experience** owning end-to-end solution architecture for enterprise platforms—microservices, event-driven integration, data access, security, observability, and cloud-native delivery. At Dish Network, own architecture for the subscriber-facing platform serving **10M+ subscribers** on Rancher-managed Kubernetes, maintaining **99.9% uptime**. Promoted **Lead → Staff** for org-wide impact: Spring Boot 3 migration, Snyk security standards, and AI-assisted workflows adopted by **50+ engineers**. Mentor **8 engineers** (**3 promoted to senior/staff**); lead architecture reviews, incident response, and senior/staff hiring.
+Staff Engineer with **14+ years of experience** owning end-to-end solution architecture for enterprise platforms—microservices, event-driven integration, orchestration, data access, security, observability, and cloud-native delivery. At Dish Network, own architecture for the subscriber-facing platform serving **10M+ subscribers** on Rancher-managed Kubernetes, maintaining **99.9% uptime**. Promoted **Lead → Staff (Solution Architect)** for org-wide impact: Spring Boot 3 migration, Snyk security standards, and AI-assisted workflows adopted by **50+ engineers**. Mentor **8 engineers** (**3 promoted to senior/staff**); lead architecture reviews, incident response, and senior/staff hiring.
 
 ---
 
