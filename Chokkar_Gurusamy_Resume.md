@@ -1,94 +1,99 @@
 # Chokkar Gurusamy
 
-**Bangalore, India** | +91 99408 92858 | [chokkar.g@gmail.com](mailto:chokkar.g@gmail.com) | [linkedin.com/in/chokkarg](https://linkedin.com/in/chokkarg)
++91 99408 92858 | [chokkar.g@gmail.com](mailto:chokkar.g@gmail.com) | [linkedin.com/in/chokkarg](https://linkedin.com/in/chokkarg) | Bangalore, India
 
 ---
 
 ## Professional Summary
 
-Staff Engineer with **14+ years of experience** owning end-to-end solution architecture for enterprise platforms—microservices, event-driven integration, orchestration, data access, security, observability, and cloud-native delivery. At Dish Network, own architecture for the subscriber-facing platform serving **10M+ subscribers** on Rancher-managed Kubernetes, maintaining **99.9% uptime**. Promoted **Lead → Staff (Solution Architect)** for org-wide impact: Spring Boot 3 migration, Snyk security standards, and AI-assisted workflows adopted by **50+ engineers**. Mentor **8 engineers** (**3 promoted to senior/staff**); lead architecture reviews, incident response, and senior/staff hiring.
+Staff Engineer with **14+ years of experience** owning end-to-end solution architecture for enterprise platforms, including API services, event-driven integration, data access, security, observability, and operational readiness. At Dish Network, own architecture for the subscriber-facing microservices platform serving **10M+ subscribers** on Rancher-managed Kubernetes. Promoted from **Lead to Staff (Solution Architect)** for org-wide Spring Boot 3 migration, Snyk security standards, and engineering practices adopted across teams. Mentor engineers and lead architecture reviews, incident response, and senior/staff hiring. Hands-on in Java/Spring Boot REST APIs, OpenAPI, Kafka/event-driven patterns, cloud-native delivery, and quality gates, AI-augmented SDLC, and AI governance practices. Regularly leverage AWS Kiro for architecture analysis, automated documentation/flow-diagram generation, and subagent-based code workflows with cross-session AI memory persistence. Introduced AI-powered Spring Boot modernization to Dish leadership by presenting a live demo of Kiro spec-driven development, automated code generation, and subagent orchestration to VP+ engineering leadership.
 
 ---
 
 ## Technical Skills
 
-- **Languages**: Java, Kotlin, JavaScript, TypeScript, Python
-- **Backend, APIs & Gateways**: Spring Boot 3, Spring Cloud, Hibernate, REST APIs, OpenAPI/Swagger, Kong / Kong Konnect, Resilience4j, Liquibase, Maven
-- **Architecture & Integration**: Microservices, Event-Driven Architecture, Kafka, Confluent Platform (Brokers, Schema Registry, Kafka Connect), RabbitMQ, Circuit Breaker, Service Mesh (Istio/Consul), GraphQL, DDD, ADRs
-- **Frontend & Mobile**: ReactJS, Next.js, React Native, Android SDK
-- **Data & Databases**: PostgreSQL, SQL (query optimization & performance patterns), Oracle, MongoDB, DynamoDB, GemFire (distributed cache), Firebase
-- **Cloud, Platform & IaC**: Docker, Kubernetes (AKS, EKS, Rancher), AWS, Azure networking (VNet/subnet connectivity, Application Gateway, Azure Firewall, Key Vault, NSG, NAT, Private Link/Endpoint, Private DNS), Terraform (IaC), Helm
-- **DevOps, Quality & Validation**: GitLab CI/CD, Azure DevOps, Jenkins, GitHub Actions, Snyk, Dynatrace, Prometheus, ELK, PagerDuty; non-functional validation, performance testing (JMeter, Gatling, SOAPUI, Postman), JUnit, Selenium
-- **AI & Automation**: Kiro (spec-driven dev, hooks, subagents), MCP integrations, custom agent skills, LLM workflows, AI-augmented SDLC
+- **Languages:** Java, Kotlin, JavaScript, TypeScript, Python, SQL
+- **Backend & APIs:** Spring Boot 3, Spring Cloud, Hibernate, REST APIs, OpenAPI/Swagger, Resilience4j, Liquibase, Maven
+- **Architecture & Integration:** Microservices, Event-Driven Architecture, Kafka, RabbitMQ, API Gateway, Circuit Breaker, DDD, ADRs
+- **Frontend & Mobile:** ReactJS, Next.js, React Native, Android SDK, and API Integration Patterns
+- **Data:** PostgreSQL, SQL, Oracle, MongoDB, DynamoDB, GemFire (distributed cache), Firebase
+- **Cloud & Platform:** Docker, Kubernetes (Rancher), GCP, AWS, and Multi-Cloud Architecture (Azure/AKS)
+- **DevOps, Security & Quality:** GitLab CI/CD, Jenkins, Snyk, Dynatrace, Prometheus, ELK, JUnit, Selenium, Postman, API & performance testing
+- **AI & Automation:** Kiro (spec-driven dev, hooks, subagents, EARS), MCP integrations (GitLab, Jira, GitHub), custom agent skills (defect-fix / test-gen / code-review), LLM workflows, AI-augmented SDLC (AI code review, automated test generation, spec-to-code traceability, AI observability)
 
 ---
 
 ## Professional Experience
 
-### Dish Network Technologies | Staff Engineer (promoted from Lead) | May 2022 – Present
+### Dish Network Technologies | Staff Engineer *(promoted from Lead)* — May 2022 – Present
 
-- Define, document, and govern architecture patterns, design guardrails, integration standards, and reusable engineering practices to ensure consistency, release predictability, and compliance across multiple platform and product engineering teams.
-- Lead architecture reviews, evaluate technical options, and make informed trade-off decisions to ensure implementation choices align with enterprise architecture, security, scalability, and long-term maintainability goals.
-- Promoted **Lead → Staff** for org-wide impact: authored Spring Boot 3 migration guide adopted across services; drove Snyk security scanning adoption across **3+ teams**; established architecture review board for platform consistency.
-- Pioneered AI-assisted workflows adopted by **50+ engineers** to accelerate delivery velocity; integrated AI review bots into GitLab CI/CD pipelines and automated test generation from specs, reducing production defects by **30%**.
-- Lead architecture across **3+ product teams** (**20+ engineers total**); mentor **8 engineers** (**3 promotions** to senior/staff); partner with Product Owners on roadmap feasibility and technical trade-offs; maintain engineering KPI visibility (velocity, defect leakage, release predictability); maintained **90%+ team retention rate** (2022–2025); lead on-call incident response with post-mortems and runbooks.
-- **Annual Technical Excellence Award** (2025, 2024) · **Spot Award** (2025, 2023) · **CPAW Award** — recognized for platform reliability, security posture, and delivery impact.
+- Winner of the **Annual Technical Excellence Awards** (2024, 2025) · Recipient of the **Spot Awards** (2023, 2025) · **CPAW Award** recipient, recognizing contributions to delivery impact.
 
-### My Dish App – Subscriber Platform | Java, Spring Boot 3, Spring Cloud, REST, OpenAPI, GemFire, Kafka, K8s
+#### My Dish App — Subscriber Platform
 
-- Architected enterprise-grade REST microservices using Java and Spring Boot (API-first / OpenAPI) for the subscriber platform serving **10M+ subscribers**—maintaining **99.9% uptime** with sub-second API latency.
-- Led migration to **GemFire** distributed caching to optimize database load and reduce access latency; guided teams on complex SQL query design, database indexes, data access patterns, and performance tuning.
-- Established event-driven publish-subscribe patterns using **Kafka** and Confluent Platform (Schema Registry, Kafka Connect) alongside **RabbitMQ** for asynchronous workflows and decoupling.
-- Designed and implemented secure integration patterns across frontend (React Native/Next.js) and backend APIs; implemented API gateway routing (Kong), circuit-breaker patterns, and resilience guardrails.
-- Built observability and operational readiness: Dynatrace APM, distributed tracing, PagerDuty alerting, and non-functional validation (performance testing using JMeter & Postman) as release prerequisites; ensured regulatory and compliance alignment for subscriber data handling.
+- Architected enterprise REST microservices (API-first / OpenAPI) for the flagship subscriber platform serving **10M+ subscribers** to maintain **99.9% uptime** with sub-second API latency, and defined integration patterns across frontend, backend, and shared platform services.
+- Drove the Spring Boot 3 migration across platform services using Kiro spec-driven modernization, automating the remediation of breaking changes across **50K+ lines of code** to achieve a **60% productivity gain**, and built a custom dashboard to track AI-committed code changes.
+- Leveraged spec-driven AI workflows to accelerate backend feature development, delivering high-quality microservices with automated spec-to-code traceability.
+- Established security and operational gates by integrating a custom **Dynatrace MCP server** for automated incident analysis, distributed tracing, and a **Snyk MCP server** paired with **Kiro agents** to scan and remediate vulnerabilities (achieving same-day fixes), while mandating **85%+** JUnit/Postman coverage.
 
-### Sling TV Product Development | Java, Spring Boot, Ruby on Rails, Microservices, AWS, Amazon Q, New Relic | Dish Network initiative
+#### Sling TV Product Development
 
-- Directed a globally distributed engineering organization (US + India) across **5 squads**; drove delivery predictability by mapping cross-team dependencies, clearing blockers, and establishing escalation paths for execution risks.
-- Led strategic transformation of **80+ legacy Ruby on Rails APIs** into modern, scalable Java microservices architecture—achieved **50% faster delivery timeline** by driving API-first patterns and event-driven design.
-- Orchestrated end-to-end integration of **Apple Pay** and **Google Pay** payment ecosystems, driving direct organizational revenue growth.
-- Spearheaded GenAI modernization: leveraged Amazon Q to reverse-engineer **400K+ lines** of legacy Ruby code and scaffold **2M+ lines** of Java microservices along with **10K+ unit tests** (maintaining **85% coverage**); measured **70% productivity gain** by sprint velocity; optimized cloud infrastructure costs through right-sizing and reserved capacity planning.
-- Restructured global delivery models, empowering offshore teams in India to take full ownership of feature execution, significantly increasing throughput and operational readiness.
+- Led the strategic transformation of **80+ legacy Ruby on Rails APIs** into a modern, scalable Java microservices architecture, achieving a **50% faster delivery timeline** through API-first patterns and event-driven design.
+- Spearheaded GenAI modernization by leveraging Amazon Q to reverse-engineer **400K+ lines** of legacy code and scaffold **2M+ lines** of Java microservices and **10K+ unit tests** (maintaining **85% coverage**), achieving a **70% productivity gain**.
 
-### Paperless Agreement & STB Health | Spring Boot, REST, real-time monitoring
+#### Dish Paperless Agreement (DPA), STB Health, Field Catalogue & App Store
 
-- **Paperless Agreement:** Led ColdFusion → Spring Boot microservices migration; eliminated chronic production failures and stabilized subscriber onboarding company-wide.
-- **STB Health Monitor:** Real-time dashboards and REST APIs for Set-Top-Box telemetry across **10M+ devices**, enabling proactive ops before subscriber impact.
+- **Dish Paperless Agreement (DPA):** Led the migration of the paperless onboarding system from ColdFusion to Spring Boot microservices, enabling field agents to sign agreements, cross-sell services, and activate equipment offline while orchestrating agreements through 23 integrations and 7 SFTP distribution targets.
+- **STB Health Monitor:** Built Spring Boot 3 microservices on Rancher for field technicians to scan QR-code health diagnostics and upload Set-Top-Box telemetry across **10M+ devices** — DMZ gateway handling JWT auth (Cognito + Okta) and an internal service for payload persistence, OAuth lifecycle, and certificate management, integrated with Spring Cloud Config, Dynatrace, and GitLab/Jenkins CI/CD.
+- **Field Catalogue:** Offline-first Android app with **100%** offline capability, enabling catalog access in remote areas with zero connectivity and contributing to a **60%** increase in on-site technical sales; earned appreciation from the **Sales VP**, while the integrated CMS sync cut catalog update delivery time from weeks to minutes.
+- **DISH App Store:** Custom-built internal enterprise app distribution platform (Lambda + DynamoDB + React) that delivers iOS/Android builds to DISH employees, technicians, and retailers via OTA installation with Okta SSO and group-based access control.
 
-### In-Home Service Catalogue & Internal Tools | Kotlin/Android, Spring Boot, React/Next.js
+#### Asset Management & Shift Allowance — Internal Tools
 
-- **Field catalogue:** Offline-first Android app—**40%** lower data usage; contributed to **60%** increase in on-site technical sales; CMS cut content turnaround **70%** (weeks → hours).
-- **Internal tools:** Asset Management, Shift Allowance, Seat Booking (containerized, Dynatrace). Asset Management won **Codefest 2023**, **70%** less manual effort, company-wide adoption; guided React/Next.js + Spring REST integration.
+- **Asset Management (Won Codefest 2023):** Architected and built a full-stack system (Spring Boot, ReactJS) during a hackathon, containerizing it (Docker, Portainer) to deploy on internal VMs via JFrog, which automated tracking to cut manual effort by **70%** and achieve company-wide adoption.
+- **Shift Allowance:** Developed a full-stack portal (Spring Boot, ReactJS) that automated long-term manual Excel workflows to secure an HR **Spot Award**, now used company-wide by all DISH employees for shift allowance requests and payroll approvals.
 
-### Kiro Mobile – AI DevOps Command Center | React Native, WebSocket, GitLab API, Dynatrace API
+#### Kiro Mobile & Custom Agent Skill Development *(Dish Ignite 2026 Showcase)*
 
-- Built a mobile command center for AI coding tasks—WebSocket live updates, GitLab MR status, and Dynatrace alerts; track AI coding quality metrics (spec drift, test coverage delta, remediation success rate); adopted by **50+ engineers** at Dish.
-- Authored MCP servers (GitLab, Jira) and agent skills (defect-fix, test-generation, code-review) for end-to-end incident remediation; presented at **Dish Ignite 2026**.
+- Developed a lightweight mobile interface to monitor and control Kiro IDE agent sessions from a phone over LAN, featuring a live preview of chat, tasks, and code via Chrome DevTools Protocol, which was showcased at **Dish Ignite 2026**.
+- Created custom agent skills to manage and orchestrate MCP integrations (GitLab, Jira, GitHub) to automate end-to-end software delivery, including defect resolution, test generation, and automated PR/MR creation.
 
-### MSys Technologies (now Aziro) | Technical Architect / Lead | Feb 2012 – May 2022
+---
 
-- Progressed **Software Engineer → Senior → Tech Lead → Technical Architect** over 10 years serving US clients (Pivot3, Nasuni, NetApp) in storage, virtualization, and cloud.
-- Led teams of **3–8** engineers; owned scoping, architecture, demos, and delivery. Grew Pivot3 engagement from 3 to 6 engineers via delivery quality and scope expansion.
-- **Best Performer of the Year** (5x: 2013, 2014, 2016, 2018, 2019)
+### MSys Technologies (now Aziro) | Technical Architect / Lead — Feb 2012 – May 2022
 
-### Pivot3 – VMware HCI Platform | Java, REST, ReactJS, vRealize
+- Progressed from **Software Engineer to Senior, Tech Lead, and Technical Architect** over 10 years serving global enterprise clients (Pivot3, Nasuni, NetApp) in storage, virtualization, and cloud.
+- Led engineering teams while owning scoping, architecture, demos, and delivery, successfully expanding client engagements.
+- **Best Performer of the Year** (5x: 2013, 2014, 2016, 2018, 2019) · **Blog Championship Award** (2017)
 
-- Technical Lead for VMware integration: backend REST APIs, ReactJS vSphere UI plugin, and vRealize Orchestrator automation for bulk HCI volume provisioning (**1000+ volumes**)—**60%** reduction in manual provisioning effort.
-- Partnered with US product stakeholders on roadmap, architecture reviews, and release delivery; translated requirements into scalable technical designs.
+#### Pivot3 — VMware HCI Platform
 
-### Enterprise Mobile & Test Automation | Android, Firebase, Selenium
+- Served as Technical Lead and Full-Stack Developer for VMware integration, delivering backend REST APIs, a ReactJS vSphere UI plugin, and vRealize Orchestrator automation to achieve a **60%** reduction in manual provisioning effort for **1000+ volumes**.
+- Partnered with global product stakeholders on roadmap, architecture reviews, and release delivery, translating requirements into scalable technical designs.
 
-- Led 3 engineers shipping Nasuni and Spree Wearables Android apps (Play Store) with Firebase sync and analytics for crash/engagement monitoring.
-- Built Mobitaz mobile test automation (record/playback) for client demos; delivered NetApp Selenium regression suite covering **100+ scenarios** and cutting manual regression effort by **50%**.
+#### Enterprise Mobile & Test Automation
+
+- Led the development and launch of Nasuni and Spree Wearables Android apps (Play Store) with Firebase sync and analytics for crash/engagement monitoring.
+- Built Mobitaz mobile test automation (record/playback) for client demos, and delivered a NetApp Selenium regression suite covering **100+ scenarios** to cut manual regression effort by **50%**.
 
 ---
 
 ## Education
 
-**Anna University – SIT, Tamil Nadu** | Bachelor of Information Technology | 2007 – 2011
+**Anna University — SIT, Tamil Nadu** | 2007 – 2011
+Bachelor of Information Technology
 
 ---
 
 ## Certifications
 
-- Google Cloud Professional Data Engineer
+- **Google Cloud Professional Data Engineer**
+
+---
+
+## AI Workspace & Tooling
+
+**Preferred Developer Workspace & Agentic Tooling**
+
+- Leverage **Paseo ADE** for ACP agent orchestration (Codex, Claude Code) alongside Kiro-CLI, and OpenCode.
+- Configure agentic skills (such as superpowers) and custom MCP servers to automate coding and workspace workflows.
