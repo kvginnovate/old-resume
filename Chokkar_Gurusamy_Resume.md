@@ -1,6 +1,6 @@
 # Chokkar Gurusamy
 
-**Bangalore, India** | +91 99408 92858 | [chokkar.g@gmail.com](mailto:chokkar.g@gmail.com) | [linkedin.com/in/chokkarg](https://linkedin.com/in/chokkarg) | [github.com/kvginnovate](https://github.com/kvginnovate)
+**Bangalore, India** | +91 99408 92858 | [chokkar.g@gmail.com](mailto:chokkar.g@gmail.com) | [linkedin.com/in/chokkarg](https://linkedin.com/in/chokkarg)
 
 ---
 

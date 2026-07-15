@@ -258,4 +258,4 @@ Or drag-drop the `docs/` folder at **https://app.netlify.com/drop** while logged
 - **LaTeX:** MiKTeX 25.12 (user install)
 - **PDF viewer:** PDF.js 3.11.174 (CDN)
 - **Hosting:** GitHub Pages (free, public repo)
-- **Repo:** https://github.com/kvginnovate/old-resume
+- **Repo:** old-resume
