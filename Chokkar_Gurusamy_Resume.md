@@ -93,7 +93,5 @@ Bachelor of Information Technology
 
 ## AI Workspace & Tooling
 
-**Preferred Developer Workspace & Agentic Tooling**
-
 - Leverage **Paseo ADE** for ACP agent orchestration (Codex, Claude Code) alongside Kiro-CLI, and OpenCode.
 - Configure agentic skills (such as superpowers) and custom MCP servers to automate coding and workspace workflows.

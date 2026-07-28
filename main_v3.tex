@@ -104,7 +104,7 @@ Staff Engineer with \textbf{14+ years of experience} owning end-to-end solution 
    \textbf{Backend \& APIs}{: Spring Boot 3, Spring Cloud, Hibernate, REST APIs, OpenAPI/Swagger, Resilience4j, Liquibase, Maven} \\
    \textbf{Architecture \& Integration}{: Microservices, Event-Driven Architecture, Kafka, RabbitMQ, API Gateway, Circuit Breaker, DDD, ADRs} \\
    \textbf{Frontend \& Mobile}{: ReactJS, Next.js, React Native, Android SDK, and API Integration Patterns} \\
-   \textbf{Data}{: PostgreSQL, SQL, Oracle, MongoDB, DynamoDB, GemFire (distributed cache), Firebase} \\
+   \textbf{Data}{: PostgreSQL, SQL, Oracle, MongoDB, DynamoDB, GemFire (distributed cache), Firebase, AWS Athena (serverless SQL-on-S3 telemetry analytics)} \\
    \textbf{Cloud \& Platform}{: Docker, Kubernetes (Rancher), GCP, AWS, and Multi-Cloud Architecture (Azure/AKS)} \\
    \textbf{DevOps, Security \& Quality}{: GitLab CI/CD, Jenkins, Snyk, Dynatrace, Prometheus, ELK, JUnit, Selenium, Postman, API \& performance testing} \\
    \textbf{AI \& Automation}{: Kiro (spec-driven dev, hooks, subagents, EARS), MCP integrations (GitLab, Jira, GitHub), custom agent skills (defect-fix / test-gen / code-review), LLM workflows, AI-augmented SDLC (AI code review, automated test generation, spec-to-code traceability, AI observability)}
@@ -129,6 +129,7 @@ Staff Engineer with \textbf{14+ years of experience} owning end-to-end solution 
 \resumeItem{Drove the Spring Boot 3 migration across platform services using Kiro spec-driven modernization, automating the remediation of breaking changes across \textbf{50K+ lines of code} to achieve a \textbf{60\% productivity gain}, and built a custom dashboard to track AI-committed code changes.}
 \resumeItem{Leveraged spec-driven AI workflows to accelerate backend feature development, delivering high-quality microservices with automated spec-to-code traceability.}
 \resumeItem{Established security and operational gates by integrating a custom \textbf{Dynatrace MCP server} for automated incident analysis, distributed tracing, and a \textbf{Snyk MCP server} paired with \textbf{Kiro agents} to scan and remediate vulnerabilities (achieving same-day fixes), while mandating \textbf{85\%+} JUnit/Postman coverage.}
+  \resumeItem{Enabled cross-platform telemetry analytics using \textbf{AWS Athena} for serverless SQL queries over S3-stored logs across My Dish, STB Health, and all subscriber-facing applications — eliminating the need for dedicated analytics infrastructure.}
 \resumeItemListEnd
 
 \vspace{-12pt}
@@ -213,8 +214,7 @@ Staff Engineer with \textbf{14+ years of experience} owning end-to-end solution 
 %-----------AI WORKSPACE & TOOLING-----------
 \section{AI Workspace \& Tooling}
   \resumeSubHeadingListStart
-    \resumeProjectHeading
-      {\textbf{Preferred Developer Workspace \& Agentic Tooling}}{}
+    \item[]
       \resumeItemListStart
         \resumeItem{Leverage \textbf{Paseo ADE} for ACP agent orchestration (Codex, Claude Code) alongside Kiro-CLI, and OpenCode.}
         \resumeItem{Configure agentic skills (such as superpowers) and custom MCP servers to automate coding and workspace workflows.}
