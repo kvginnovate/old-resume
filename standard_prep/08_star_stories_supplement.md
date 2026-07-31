@@ -1,6 +1,8 @@
 # Leadership STAR Stories — Missing Gaps Supplement
 
-> The existing 08_leadership_behavioral_qa.md has 5 strong STAR stories. These fill 3 high-likelihood gaps not covered there.
+> The existing `08_leadership_behavioral_qa.md` has 5 strong STAR stories. These fill 3 high-likelihood gaps not covered there.
+>
+> **Also see:** `08_incident_story_itma_auth_memory_leak.md` — a complete incident story (itma-auth-service memory leak, JMeter, Rancher) with 5-part framework, Principal-level analysis, and practice drills.
 
 ---
 

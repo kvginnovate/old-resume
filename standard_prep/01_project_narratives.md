@@ -1,6 +1,6 @@
 # Project Narratives — Principal Engineer Interview Prep
 
-> **13 project stories at Principal altitude.** Each is self-contained (use in any order). Each follows: Problem → Approach → Outcome → Principal Signal → Bridge → Watchpoints.
+> **14 project stories at Principal altitude.** Each is self-contained (use in any order). Each follows: Problem → Approach → Outcome → Principal Signal → Bridge → Watchpoints.
 >
 > **What changes at Principal level:** Every answer must show org-wide influence, business metrics, stakeholder management, and strategic thinking — not just technical execution.
 
@@ -37,6 +37,11 @@
 | 11 | Kiro Mobile (Dish Ignite 2026) | **P2** | Mobile AI agent monitoring, showcased to VPs |
 | 12 | Pivot3 VMware HCI | **P2** | Enterprise full-stack, client-facing |
 | 13 | Enterprise Mobile & Mobitaz Automation | **P2** | Shipped Android apps, built framework from scratch |
+| 14 | GCP + Firebase MCP — Zero-Touch Auto-Provisioning POC | **P2** | AI agent provisions GCP/Firebase from spec in 5 min |
+
+---
+
+> **Project 14 is documented separately at `14_gcp_firebase_mcp_poc.md`**
 
 ---
 
