@@ -1,0 +1,111 @@
+# Interview Prep — Master Index & Quick Reference
+
+> **One page per phase.** Print this, keep it open during mock interviews, and refer to it before calling each document.
+
+---
+
+## Prep Status Dashboard
+
+| What | Status | Key File |
+|------|--------|----------|
+| Project Narratives (13 stories) | ✅ Complete | `01_project_narratives.md` |
+| Principal Altitude Reframe | ✅ Complete | `02_principal_altitude_integration.md` |
+| Tell Me About Yourself (3 versions) | ✅ Complete | `00_tell_me_about_yourself_full.md`, Sling-specific in `00_sling_narrative_3min.md` |
+| Resume Glossary (100+ terms) | ✅ Complete | `interview_workbook.md` (Tab 2) |
+| Resume Q&A (62 questions) | ✅ Complete | `interview_prep.md`, `interview_workbook.md` (Tab 3) |
+| Principal-Level Questions | ✅ Complete | `principal_interview_prep.md`, `00_principal_80_20_cheatsheet.md` |
+| System Design Prep | ✅ Complete | `interview_questions_gap_coverage.md` (Part 1) |
+| Behavioral STAR Stories (8) | ✅ Complete | `08_leadership_behavioral_qa.md`, `08_star_stories_supplement.md` |
+| Technical Gaps (Azure, Flink, Kong) | ⚠️ In Progress | Study plan at `00_study_plan.md` |
+| Panic Management | ✅ Complete | `panic_management.md` |
+
+---
+
+## Quick Access by Interview Phase
+
+### Before the Interview (This Week)
+
+| Step | Time | Action |
+|------|------|--------|
+| 1 | 2 hrs | **Re-read `01_project_narratives.md`** — All 13 stories. Pick your P0s (Subscriber Platform, Spring Boot 3, Sling TV, AI Agent Skills) |
+| 2 | 1 hr | **Read `02_principal_altitude_integration.md`** — Practice the shift from Staff to Principal altitude in your answers |
+| 3 | 30 min | **Rehearse Tell Me About Yourself** — All 3 versions (30s, 130s, 5min). Practice the 130s version with a timer |
+| 4 | 1 hr | **Pick your 5 weakest Q&A questions** from `interview_prep.md` and practice answering them |
+| 5 | 30 min | **Read `00_principal_80_20_cheatsheet.md`** — Principal-specific: first 90 days, build vs buy, regulated industry |
+
+### Day Before the Interview
+
+| Step | Time | Action |
+|------|------|--------|
+| 1 | 1 hr | **Mock interview** — Have someone ask you the top 10 questions. Record yourself. Listen for "Staff altitude" answers and reframe |
+| 2 | 30 min | **Company research** — Read their engineering blog. Know their stack. Prepare "Why this company" answer |
+| 3 | 15 min | **Read `panic_management.md`** — Emergency mental checklist for nerves |
+| 4 | 15 min | **Numbers drill** — Rehearse these numbers cold: 10M subscribers, 60% (Boot 3), 70% (Sling), 5 teams, 85% coverage, 30min→2min |
+
+### During the Interview
+
+| Signal | Move |
+|--------|------|
+| "Tell me about yourself" → | Use 130s script. Land these exactly: "Staff Engineer," "10M+ subscribers," "Spring Boot 3 migration using AI," "custom agent skills used by 5+ teams" |
+| System design whiteboard → | Use framework: Clarify → Boundaries → Architecture → Scale → Tradeoffs → Migration → Ops |
+| Behavioral STAR → | Use framework: Context → Action → Outcome → Lesson. Lead with business outcome, not technical detail |
+| "Why this company?" → | **Must have prepared this.** Reference their engineering blog, their stack, their challenges. Generic "I want to work at scale" is death |
+| Brain freeze / panic → | "That's a great question. Let me think about it for a moment." — Take a breath. Name the framework aloud. It buys you 10 seconds |
+
+---
+
+## The 5 Must-Know Numbers
+
+| # | Number | What It Proves | Use When |
+|---|--------|---------------|----------|
+| 1 | **10M+ subscribers** | Enterprise scale | Opening hook, architecture questions |
+| 2 | **60% productivity gain** (Spring Boot 3) | AI + strategy = measurable impact | Migration questions, AI adoption |
+| 3 | **70% productivity gain** (Sling TV) | Legacy modernization at scale | System design, migration strategy |
+| 4 | **5+ engineering teams** (AI skills) | Org-wide influence, adoption | Leadership, influence without authority |
+| 5 | **30 min → 2 min** (incident diagnosis) | Operational excellence | Reliability, observability questions |
+
+---
+
+## Document File Index
+
+| File | Content | Size |
+|------|---------|------|
+| `standard_prep/01_project_narratives.md` | 13 project stories at Principal altitude (P0-P2) | ~44KB |
+| `standard_prep/02_principal_altitude_integration.md` | Staff→Principal reframe guide per category | ~11KB |
+| `standard_prep/00_tell_me_about_yourself_full.md` | 3 versions: elevator (~30s), standard (~130s), full career (~5-6 min) | ~8KB |
+| `standard_prep/00_sling_narrative_3min.md` | Sling TV specific 3-min narrative for The Standard | ~5KB |
+| `standard_prep/00_principal_80_20_cheatsheet.md` | Principal questions: first 90 days, build vs buy, regulated industry | ~7KB |
+| `standard_prep/00_azure_cheatsheet.md` | Azure cloud fundamentals for AKS gap | ~6KB |
+| `standard_prep/00_study_plan.md` | Week-by-week study plan (5 weeks) | ~4KB |
+| `standard_prep/08_star_stories_supplement.md` | 3 additional STAR stories (hiring, failure, influence) | ~6KB |
+| `standard_prep/08_leadership_behavioral_qa.md` | 5 STAR stories + frameworks | ~19KB |
+| `standard_prep/11_resume_based_questions_qa.md` | 62 questions by resume section | ~40KB |
+| `interview_workbook.md` | Consolidated workbook: 9 tabs, 919 lines | ~65KB |
+| `interview_prep.md` | Full career intro + 62 Q&A | ~58KB |
+| `principal_interview_prep.md` | Principal-specific: strategy, org design, exec alignment | ~17KB |
+| `interview_questions_gap_coverage.md` | System design, behavioral, strategy, company-specific gap coverage | ~20KB |
+| `interview_cheatsheet.md` | Compact cheat sheet with key numbers | ~9KB |
+| `resume_terms_glossary.md` | One-liner per resume term | ~24KB |
+| `panic_management.md` | Emergency panic protocol for interview day | ~6KB |
+| `kafka_scenarios.md` | Kafka deep dive with scenarios | ~30KB |
+| `aws_to_azure_mapping.md` | AWS→Azure service mapping | ~12KB |
+
+---
+
+## Incorrect / Outdated Signals to Remove
+
+| Problem | Where | Fix Status |
+|---------|-------|------------|
+| "50% faster delivery" for Sling TV (should be 70%) | `main_v3.tex`, `Chokkar_Gurusamy_Resume.md`, `intro.md`, `generate_docx.py`, `interview_cheatsheet.md` | ✅ Fixed |
+| Duplicate Sling metrics (50% + 70% describing same project) | `interview_cheatsheet.md` | ✅ Fixed — merged into single line |
+
+## ✅ Pre-Interview Checklist
+
+- [ ] All resume percentage discrepancies resolved (50% → 70% for Sling TV)
+- [ ] Can state all 5 key numbers without hesitation
+- [ ] Rehearsed 3-minute intro at least 2 times
+- [ ] Picked 3 anchor stories and can bridge them to any question
+- [ ] Practiced 2-3 STAR stories out loud
+- [ ] Prepared "Why this company" answer with specific details
+- [ ] Read `panic_management.md` protocol
+- [ ] Know the biggest gap in my prep and have an honest answer ready (Azure/AKS)

@@ -21,7 +21,7 @@
 
 **Result:**
 - Got approval for the full migration program
-- Delivered 50% faster delivery timeline through API-first patterns
+- Delivered 70% faster delivery timeline through API-first patterns
 - Leveraged GenAI (Amazon Q) to accelerate: reverse-engineered 400K+ lines of legacy code, generated 2M+ lines of Java microservices with 85% test coverage
 - 70% productivity gain measured across the team
 

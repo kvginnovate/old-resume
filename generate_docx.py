@@ -244,7 +244,7 @@ def create_resume():
         ("Led the strategic transformation of ", False, False),
         ("80+ legacy Ruby on Rails APIs", True, False),
         (" into a modern, scalable Java microservices architecture, achieving a ", False, False),
-        ("50% faster delivery timeline", True, False),
+        ("70% faster delivery timeline", True, False),
         (" through API-first patterns and event-driven design.", False, False)
     ])
     add_bullet([

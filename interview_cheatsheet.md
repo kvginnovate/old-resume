@@ -70,8 +70,7 @@
 - DDD bounded contexts: billing, content, entitlements, recommendations
 - Saga pattern on Kafka for cross-service data consistency
 - Parallel run with feature flags + Dynatrace + hourly reconciliation
-- **Result: 5 months vs 18 months estimated, 70% productivity gain**
-- **Result: 50% faster delivery timeline**
+|- **Result: 70% productivity gain, 5 months vs 18 months estimated**
 - **Result: Technical Excellence Award 2025**
 
 ---

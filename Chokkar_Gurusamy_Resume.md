@@ -38,7 +38,7 @@ Staff Engineer with **14+ years of experience** owning end-to-end solution archi
 
 #### Sling TV Product Development
 
-- Led the strategic transformation of **80+ legacy Ruby on Rails APIs** into a modern, scalable Java microservices architecture, achieving a **50% faster delivery timeline** through API-first patterns and event-driven design.
+- Led the strategic transformation of **80+ legacy Ruby on Rails APIs** into a modern, scalable Java microservices architecture, achieving a **70% faster delivery timeline** through API-first patterns and event-driven design.
 - Spearheaded GenAI modernization by leveraging Amazon Q to reverse-engineer **400K+ lines** of legacy code and scaffold **2M+ lines** of Java microservices and **10K+ unit tests** (maintaining **85% coverage**), achieving a **70% productivity gain**.
 
 #### Dish Paperless Agreement (DPA), STB Health, Field Catalogue & App Store

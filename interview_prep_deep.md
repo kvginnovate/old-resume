@@ -95,7 +95,7 @@ When you split a monolith's database, you lose ACID transactions. A customer's b
 | 18-month manual rewrite estimate | 5-month AI-assisted migration |
 | 70% productivity gain | 12 engineers × 13 months saved = massive capacity freed for features |
 | 85% test coverage (new), fewer bugs than original | Higher quality than the legacy code it replaced |
-| Delivery timeline 50% faster | Sling TV ships features faster to compete in streaming market |
+| Delivery timeline ~70% faster | Sling TV ships features faster to compete in streaming market |
 
 ---
 

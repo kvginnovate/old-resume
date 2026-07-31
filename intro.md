@@ -16,7 +16,7 @@
 ### Key Achievements
 
 - Led Spring Boot 3 migration across 50K+ lines of code, achieving 60% productivity gain
-- Migrated 80+ legacy Ruby on Rails APIs to Java microservices (Sling TV), achieving 50% faster delivery
+- Migrated 80+ legacy Ruby on Rails APIs to Java microservices (Sling TV), achieving 70% faster delivery
 - Leveraged Amazon Q to reverse-engineer 400K+ lines of legacy code and scaffold 2M+ lines of Java microservices with 10K+ unit tests at 85% coverage
 - Architected enterprise REST microservices serving 10M+ subscribers with 99.9% uptime and sub-second API latency
 - Migrated DPA from ColdFusion to Spring Boot microservices (23 integrations, 7 SFTP targets)
@@ -71,7 +71,7 @@ Java, Spring Boot 3, Spring Cloud, REST APIs, Microservices, Event-Driven Archit
 ### What's your biggest achievement?
 
 > Driving the Spring Boot 3 migration across 50K+ lines of code. We used AI-driven spec workflows to automate the remediation of breaking changes, which was critical to achieving a 60% productivity gain. It wasn't just a code migration, it was a platform modernization that affected every team on the subscriber platform. I also built a custom dashboard to track AI-committed code changes so leadership could measure progress.
-> When I took on the Sling TV migration, we had 80+ legacy Ruby on Rails APIs that needed to become Java microservices. I defined the target architecture and API-first contract patterns, then used Amazon Q to reverse-engineer 400K+ lines of legacy code. Amazon Q scaffolded 2M+ lines of new Java services with 10K+ unit tests at 85% coverage. My role was making the architectural decisions that made the AI acceleration possible. The project delivered 50% faster delivery timelines.
+> When I took on the Sling TV migration, we had 80+ legacy Ruby on Rails APIs that needed to become Java microservices. I defined the target architecture and API-first contract patterns, then used Amazon Q to reverse-engineer 400K+ lines of legacy code. Amazon Q scaffolded 2M+ lines of new Java services with 10K+ unit tests at 85% coverage. My role was making the architectural decisions that made the AI acceleration possible. The project delivered 70% faster delivery timelines.
 
 ### How do you handle disagreements with stakeholders?
 
