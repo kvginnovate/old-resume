@@ -8,10 +8,12 @@ Deep-dive documentation of the **My Dish App (MDA)** microservice architecture, 
 
 | # | Doc | What it covers |
 |---|-----|----------------|
+| 0 | [00-app-intro.md](00-app-intro.md) | App intro for interviews: business-first elevator pitch, functionality, corrected deployment facts (Cloud Foundry primary, Rancher2/K8s migration in progress) |
 | 1 | [01-microservice-patterns.md](01-microservice-patterns.md) | Full inventory of microservice design patterns used in MDA, with code evidence |
 | 2 | [02-auth-flow-deep-dive.md](02-auth-flow-deep-dive.md) | End-to-end walkthrough: login → token issuance → token validation → logout (the strongest interview story) |
 | 3 | [03-why-not-kafka.md](03-why-not-kafka.md) | How to answer "why aren't you using Kafka/RabbitMQ?" — grounded in the actual architecture |
 | 4 | [04-bff-pattern.md](04-bff-pattern.md) | What the Backend-for-Frontend (BFF) pattern is, and how `My-Dish-App_Int` (mdaint) implements it |
+| 5 | [05-des-internals.md](05-des-internals.md) | DES (DISH Event System) internals: producers, CFT routing, transformation strategy, 9-event chunking, CSA field-remapping, delivery |
 
 ## The one-paragraph summary
 
