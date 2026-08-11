@@ -8,6 +8,7 @@ credentials.json
 *.synctex.gz
 *.pdf
 !docs/*.pdf
+!Resume_5_Final.pdf
 
 # OS files
 Thumbs.db
