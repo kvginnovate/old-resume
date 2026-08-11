@@ -23,6 +23,7 @@
 | SQL Querying Prep | ✅ Complete | `14_sql_querying_prep.md` |
 | Java Deep Dive (JVM, Concurrency) | ✅ Complete | `17_java_deep_dive.md` |
 | Company Research (The Standard) | ✅ Complete | `00_company_research_standard.md` |
+| Director-Level Round (11 Aug F2F) | ✅ Complete | `director_level/00_director_level_playbook.md`, `director_level/01_director_qa_scripts.md`, `director_level/02_questions_to_ask_director.md` |
 | Questions to Ask Interviewers | ✅ Complete | `15_questions_to_ask.md` |
 | Interview Day Plan & Logistics | ✅ Complete | `18_interview_day_plan.md` |
 | Compensation / Negotiation | ✅ Complete | `16_compensation_negotiation.md` |
@@ -115,6 +116,10 @@
 | `panic_management.md` | Emergency panic protocol for interview day | ~6KB |
 | `kafka_scenarios.md` | Kafka deep dive with scenarios | ~30KB |
 | `aws_to_azure_mapping.md` | AWS→Azure service mapping | ~12KB |
+| `director_level/00_director_level_playbook.md` | Director round: what it tests, altitude shifts, 3 anchor stories, business numbers, drill | ~7KB |
+| `director_level/01_director_qa_scripts.md` | 9 director question scripts with frameworks + key lines | ~10KB |
+| `director_level/02_questions_to_ask_director.md` | The One Question + 6 director questions, room-reading | ~3KB |
+| `director_level/03_research_findings.md` | Web research: live JD read, CIO quotes, scoring rubric, principal/director question banks, BenTech primer, Kong/Confluent/Azure topics | ~16KB |
 
 ---
 
